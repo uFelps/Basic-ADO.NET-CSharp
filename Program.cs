@@ -13,7 +13,8 @@ using (var connection = new SqlConnection(connectionString))
     //CreateCategory(connection);
     //UpdateCategory(connection);
     //DeleteCategory(connection);
-    ExecuteProcedure(connection);
+    //ExecuteProcedure(connection);
+    ExecuteReadProcedure(connection);
 }
 
 
@@ -78,4 +79,21 @@ static void ExecuteProcedure(SqlConnection connection)
     var rolls = connection.Execute(procedure, pars, commandType: CommandType.StoredProcedure);
     
     Console.WriteLine($"{rolls} Afetadas");
+}
+
+static void ExecuteReadProcedure(SqlConnection connection)
+{
+    var procedure = "[spGetCoursesByCategory]";
+
+    var pars = new
+    {
+        CategoryId = "09CE0B7B-CFCA-497B-92C0-3290AD9D5142"
+    };
+
+    var courses = connection.Query(procedure, pars, commandType: CommandType.StoredProcedure);
+
+    foreach (var item in courses)
+    {
+        Console.WriteLine(item);
+    }
 }
