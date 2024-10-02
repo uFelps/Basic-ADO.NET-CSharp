@@ -13,6 +13,7 @@ using (var connection = new SqlConnection(connectionString))
     //CreateCategory(connection);
     //UpdateCategory(connection);
     //DeleteCategory(connection);
+    ExecuteProcedure(connection);
 }
 
 
@@ -68,3 +69,13 @@ static void DeleteCategory(SqlConnection connection)
     Console.WriteLine($"{rolls} Linhas deletadas");
 }
 
+static void ExecuteProcedure(SqlConnection connection)
+{
+    var procedure = "[spDeleteStudent]";
+
+    var pars = new { StudentId = "505E6C7E-8141-495F-B7CE-2D61D89D4DC4" };
+
+    var rolls = connection.Execute(procedure, pars, commandType: CommandType.StoredProcedure);
+    
+    Console.WriteLine($"{rolls} Afetadas");
+}

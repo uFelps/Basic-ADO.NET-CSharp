@@ -5,6 +5,7 @@ C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\dataAccess.dll
 C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\dataAccess.pdb
 C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Dapper.dll
 C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Microsoft.Identity.Client.dll
@@ -47,11 +48,10 @@ C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.GeneratedM
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.AssemblyInfoInputs.cache
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.AssemblyInfo.cs
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.sourcelink.json
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.csproj.Up2Date
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.dll
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\refint\dataAccess.dll
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.pdb
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.genruntimeconfig.cache
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\ref\dataAccess.dll
-C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Dapper.dll
-C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.sourcelink.json
