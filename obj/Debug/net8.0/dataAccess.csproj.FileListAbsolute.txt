@@ -53,3 +53,5 @@ C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\refint\dataAccess.dll
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.pdb
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.genruntimeconfig.cache
 C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\ref\dataAccess.dll
+C:\Users\User\Documents\CSharp\dataAccess\bin\Debug\net8.0\Dapper.dll
+C:\Users\User\Documents\CSharp\dataAccess\obj\Debug\net8.0\dataAccess.sourcelink.json
